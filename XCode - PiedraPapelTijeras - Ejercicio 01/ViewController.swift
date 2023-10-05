@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func piedraPulsado(_ sender: Any) {
-        
+        contUser = Int.random(in: 1..<4)
     }
     
     @IBAction func papelPulsado(_ sender: Any) {
